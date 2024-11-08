@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Palindrome or nothing special?</title>
+  </head>
+  <body>
+    <main>
+      <h1>Palindrome or nothing special?</h1>
+      <div class="input-output-container">
+        <div class="input-container">
+          <div class="text-input-container">
+            <label for="text-input">Try your palindrome!</label>
+            <input type="text" id="text-input" autocomplete="off" />
+          </div>
+          <button id="check-btn">Check</button>
+        </div>
+        <div class="output-container hidden" id="output">
+          <p id="result"></p>
+        </div>
+      </div>
+      <div class="info-container">
+        <details>
+          <summary>How to spot a palindrome!</summary>
+          <p>
+            Palindromes are words or numbers (or a combination) that are the
+            same when you read them backwards as when you read them forwards.
+          </p>
+          <p>
+            For this checker we will ignore any whitespaces, characters that
+            aren't alphanumeric as well as if the word or phrase is upper or
+            lower case.
+          </p>
+          <p>
+            To help you think of some possiblities to check, here are some
+            examples of palindromes:
+          </p>
+          <div class="list-container">
+            <ul>
+              <li>121</li>
+              <li>refer</li>
+              <li>356653</li>
+              <li>race car</li>
+              <li>pot6jk4kj6top</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
