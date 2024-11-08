@@ -62,7 +62,7 @@ label {
 
 button {
   margin: 10px;
-  max-width: fit-content;
+  max-width: 20vw;
   min-width: fit-content;
   border: 2px groove #ddbdf3;
   border-radius: 5px;
