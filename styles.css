@@ -45,11 +45,13 @@ input {
   background-color: #f0edf2;
   border: 2px groove #ddbdf3;
   border-radius: 6px;
+  caret-color: transparent;
 }
 
 input:focus {
   outline-offset: -2px;
   outline: double #a965d6;
+  caret-color: #24033a;
 }
 
 label {
